@@ -47,7 +47,7 @@ def main():
         ]
         answer = inquirer.prompt(questions, raise_keyboard_interrupt=True)['share']
 
-        if answer == 'I don\'t have another one':
+        if answer == 'I don\'t have another one' and shares:
             break
         elif answer == 'Use Text':
             txt = input('Enter your share: ')
