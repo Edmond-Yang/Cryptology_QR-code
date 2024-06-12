@@ -69,6 +69,7 @@ def charset_to_int(s, charset):
     output = 0
     for char in s:
         output = output * len(charset) + charset.index(char)
+
     return output
 
 def int_to_charset(val, charset):

@@ -40,7 +40,7 @@ def main():
     while True:
         questions = [
             inquirer.List('share',
-                        message='Next share',
+                        message='Next Share',
                         choices=['Use Camera to Scan QR-code', 'Use QR-code Image',
                                  'Use Text', 'Edit The Share', 'I don\'t have another one'],
                     ),
