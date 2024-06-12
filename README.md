@@ -57,6 +57,7 @@ QR Code 作為一種高效、可靠的二維條碼技術，已被廣泛應用於
 
 
 7. 顯示出密文，並儲存 QR-code 在該資料夾內
+
 ![Screenshot06.png](img/Screenshot06.png)
 
 
@@ -73,4 +74,8 @@ QR Code 作為一種高效、可靠的二維條碼技術，已被廣泛應用於
 3. 輸入完之後，選擇 `I don't have another one`，讓程式解密並輸出明文
 ![Screenshot09.png](img/Screenshot09.png)
 
-
+<style>
+img{
+   width: 50%;
+}
+</style>
