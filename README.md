@@ -37,28 +37,26 @@ QR Code 作為一種高效、可靠的二維條碼技術，已被廣泛應用於
 ### 加密訊息
 1. 執行 `python3 encryption.py`
 2. 看到問題 `How many shares do you want?`，選擇總共需要多少密文:  2、3、other (手動輸入)
-![Screenshot01.png](img/Screenshot01.png)
-
+<img src="img/Screenshot01.png" width="50%">
 
 3. 看到問題 `How many shares should be enough for decryption?`，選擇至少需要多少密文才能解密
-![Screenshot02.png](img/Screenshot02.png)
+<img src="img/Screenshot02.png" width="50%">
 
 
 4. 看到問題 `Select the format of output images`，選擇輸出 QR-code 的方式: png、svg、terminal
-![Screenshot03.png](img/Screenshot03.png)
+<img src="img/Screenshot03.png" width="50%">
 
 
 5. 看到問題 `Size of output images`，選擇 QR-code 大小: Small、Medium、Large
-![Screenshot04.png](img/Screenshot04.png)
+<img src="img/Screenshot04.png" width="50%">
 
 
 6. 看到問題 `Enter your message: `，輸入要隱藏的明文
-![Screenshot05.png](img/Screenshot05.png)
+<img src="img/Screenshot05.png" width="50%">
 
 
-7. 顯示出密文，並儲存 QR-code 在該資料夾內
-
-![Screenshot06.png](img/Screenshot06.png)
+7. 經過加密後，產生出密文，並儲存 QR-code 在該資料夾內
+<img src="img/Screenshot06.png" width="50%">
 
 
 ### 解密訊息
@@ -67,15 +65,9 @@ QR Code 作為一種高效、可靠的二維條碼技術，已被廣泛應用於
    1. 選擇 `Use Camera to Scan QR-code`，讓電腦（含攝像頭）掃描 QR-code 來取得密文，並確認其讀出的內容，按 `Yes`
    2. 選擇 `Use QR-code Image`，使用絕對/相對位置尋找 QR-code 圖片來取得密文，並確認其讀出的內容，按 `Yes`
    3. 選擇 `Use Text`，使用文字輸入密文
-![Screenshot07.png](img/Screenshot07.png)
-![Screenshot08.png](img/Screenshot08.png)
+<img src="img/Screenshot07.png" width="50%">
+<img src="img/Screenshot08.png" width="50%">
 
 
 3. 輸入完之後，選擇 `I don't have another one`，讓程式解密並輸出明文
-![Screenshot09.png](img/Screenshot09.png)
-
-<style>
-img{
-   width: 50%;
-}
-</style>
+<img src="img/Screenshot09.png" width="50%">
