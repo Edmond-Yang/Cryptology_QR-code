@@ -1,4 +1,4 @@
-from sharing import PlaintextToHexSecretSharer
+from method import PlaintextToHexSecretSharer
 import pyqrcode
 import inquirer
 import animation

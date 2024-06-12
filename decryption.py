@@ -1,4 +1,4 @@
-from sharing import PlaintextToHexSecretSharer
+from method import PlaintextToHexSecretSharer
 import inquirer
 import animation
 import cv2
@@ -6,6 +6,7 @@ from pyzbar import pyzbar
 
 
 def capture():
+
     # 初始化攝影機
     cap = cv2.VideoCapture(0)
 
@@ -35,7 +36,6 @@ def main():
     # Enter shares
 
     shares = []
-
 
     while True:
         questions = [
