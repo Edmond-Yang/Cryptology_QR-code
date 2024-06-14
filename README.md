@@ -65,7 +65,7 @@ QR Code 作為一種高效、可靠的二維條碼技術，已被廣泛應用於
    1. 選擇 `Use Camera to Scan QR-code`，讓電腦（含攝像頭）掃描 QR-code 來取得密文，並確認其讀出的內容，按 `Yes`
    2. 選擇 `Use QR-code Image`，使用絕對/相對位置尋找 QR-code 圖片來取得密文，並確認其讀出的內容，按 `Yes`
    3. 選擇 `Use Text`，使用文字輸入密文
-<img src="img/Screenshot07.png" width="50%">
+   4. 選擇 `Edit The Share`，支援刪除掉已經輸入的密文
 <img src="img/Screenshot08.png" width="50%">
 
 
